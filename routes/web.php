@@ -1,8 +1,6 @@
 <?php
-Route::get('/',['as'=>'Dashboard',function()
-{
-  return view('Dashboard');
-}]);
+Route::get('/',['as'=>'Dashboard','uses'=> 'PagesController@Dashboard']);
+
 Route::get('Soporte', ['as'=>'Soporte', function()
 {
   return View('Soporte');
