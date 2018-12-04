@@ -5,15 +5,15 @@
     <title>Dashboard</title>
     <body>
       <header>
-        <div>
-      <nav>
-          <a href="<?php echo route('Soporte') ?>">Asistencia</a>
-          <a href="<?php echo route('Producto') ?>">Producto</a>
-          <a href="<?php echo route('Informacion')?>">Informes</a>
-          <a href="<?php echo route('PanelControl') ?>">Usuarios</a>
-          <a href="<?php echo route('Dashboard') ?>">Dashboard</a>
+      <div>
+        <nav>
+          <a href="{{  route('Soporte') }} ">Asistencia</a>
+          <a href="{{  route('Producto')}} ">Producto</a>
+          <a href="{{  route('Informacion')}} ">Informes</a>
+          <a href="{{  route('PanelControl')}}">Usuarios</a>
+          <a href="{{  route('Dashboard') }}">Dashboard</a>
         </nav>
-      </DIV>
+      </div>
       </header>
     </body>
     @yield('Dashboard')
@@ -21,5 +21,5 @@
     @yield('PanelControl')
     @yield('Informacion')
     @yield('Producto')
-    <footer>Copyright </footer>
+    <footer>Copyright# </footer>
 </html>
