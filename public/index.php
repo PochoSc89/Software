@@ -1,5 +1,5 @@
 <?php
-
+extends layout.blade
 
 
 
